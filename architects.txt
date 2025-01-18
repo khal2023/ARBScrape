@@ -1,0 +1,655 @@
+<!DOCTYPE html><html lang="en-gb" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
+    Document Title
+    =============================================
+    -->
+    <title>Search the Register</title>
+    <!--
+    Favicons
+    =============================================
+    -->
+    <meta name="description" content="Search the Architects Register">
+    <link rel="canonical" href="https://arbsearchregistertest.azurewebsites.net/">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <link rel="manifest" href="https://cms.architects-register.org.uk/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://cms.architects-register.org.uk/assets/images/favicons/arb-favicon-1.jpg">
+    <meta name="theme-color" content="#ffffff">
+    <!--
+    Stylesheets
+    =============================================
+
+    -->
+    <!-- Default stylesheets-->
+    <script defer="" src="https://pro.fontawesome.com/releases/v5.13.1/js/all.js" integrity="sha384-RFburpZVVirucdjarLLIoBiT+LY5YuPB8XboZYWRuWpElr46csH7Ia2nsHfkfBZF" crossorigin="anonymous"></script>
+    <link href="https://cms.architects-register.org.uk/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cms.architects-register.org.uk/css/theme.css" rel="stylesheet">
+    <link href="https://cms.architects-register.org.uk/css/style.css" rel="stylesheet">
+    <link href="https://cms.architects-register.org.uk/css/arb-richtext-editor-1.css" rel="stylesheet">
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-074KZLHQZQ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-074KZLHQZQ');
+        </script>
+
+</head>
+<body>
+
+
+    <main>
+
+        
+
+
+
+<div class="container-fluid fixed-top bg-primary">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg text-dark navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="http://www.arb.org.uk/" target="top"><img src="https://cms.architects-register.org.uk/media/f4ohmwhu/logo.png" alt="Image - ARB site logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ml-auto nav-fill w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://cms.architects-register.org.uk">About the Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://architects-register.org.uk">Search the Register</a>
+                        </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://cms.architects-register.org.uk/register-part-2/">Register Part 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://cms.architects-register.org.uk/further-information/">Further Information</a>
+                                </li>
+
+
+                    </ul>
+
+                    <ul class="navbar-nav hidden-sm hidden-xs">
+                        <li class="nav-item">
+                            <button class="btn btn-primary btn-sm d-block p-0 m-0" id="_biggify" style="line-height: 1;margin-bottom: 4px !important;">
+                                A+
+                            </button>
+                            <button class="btn btn-primary btn-sm d-block p-0 m-0" id="_smallify" style="line-height: 1;margin-bottom: 4px !important;">
+                                A-
+                            </button>
+                            <button class="btn btn-primary btn-sm d-block p-0 m-0" id="_resetFont" aria-label="Reset font size button" style="line-height: 1;margin-bottom: 4px !important;">
+                                <i class="fas fa-redo"></i>
+                            </button>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+        <div class="main">
+
+            
+<script>
+
+var LayoutVariables = {
+          NoResultsText : decodeURIComponent('%3Cp%3ENo%20results%3F%20Try%20another%20search%20or%2C%20if%20you%20think%20someone%20may%20be%20misusing%20the%20title%20architect%2C%20you%20can%20%3Ca%20href%3D%22https%3A%2F%2Ftitle-complaints.arb.org.uk%2F%22%3Ereport%20it%3C%2Fa%3E%20to%20us%20and%20we%20will%20investigate.%3C%2Fp%3E'),
+        RegistrantDetailsInfoText : decodeURIComponent('%3Cp%20style%3D%22text-align%3A%20left%3B%22%3EArchitects%20-%20find%20out%20how%20to%20%3Ca%20href%3D%22https%3A%2F%2Fcms.architects-register.org.uk%2F%2Fyour-register-details%22%20title%3D%22Your%20Register%20details%22%3Eamend%20your%20details.%3C%2Fa%3E%3C%2Fp%3E'),
+        PageLoadInformationText : decodeURIComponent('%3Ch1%3EWelcome%20to%20the%20Architects%20Register%3C%2Fh1%3E%3Cp%3EThe%20Architects%20Register%20is%20the%20definitive%20record%20of%20all%20UK%20architects.%20If%20someone%20is%20not%20on%20the%20Register%2C%20they%20are%20not%20an%20architect%20%E2%80%93%20it%E2%80%99s%20as%20simple%20as%20that.%3C%2Fp%3E%3Cp%3EThe%20title%20%E2%80%9Carchitect%E2%80%9D%20is%20protected%20by%20law%20in%20the%20UK.%20It%20can%20only%20be%20used%20by%20people%20who%20have%20the%20appropriate%20education%2C%20training%20and%20experience%20needed%20to%20join%20the%20Architects%20Register.%20It%E2%80%99s%20quick%20and%20easy%20to%20check%20the%20Register%20to%20confirm%20whether%20someone%20is%20a%20genuine%20architect.%20By%20checking%20the%20Register%20before%20commissioning%20services%2C%20you%20can%20make%20an%20informed%20choice%20about%20who%20to%20hire%20for%20your%20project.%3C%2Fp%3E%3Cp%3EYou%20can%20check%20the%20Register%20using%20a%20range%20of%20basic%20or%20advanced%20search%20categories%20including%20name%2C%20address%2C%20registration%20number%20or%20country.%20Search%20results%20are%20displayed%20in%20a%20randomised%20order%2C%20you%20can%20instantly%20sort%20them%20alphabetically%20by%20first%20name%2C%20surname%20or%20practice%20name%20using%20the%20%27Sort%20By%27%20function.%3C%2Fp%3E%3Cp%3EIf%20you%20can%E2%80%99t%20find%20someone%20on%20the%20Register%20and%20think%20they%20may%20be%20misusing%20the%20protected%20title%20%E2%80%98architect%E2%80%99%2C%20you%20can%20%3Ca%20href%3D%22https%3A%2F%2Ftitle-complaints.arb.org.uk%2F%22%3Ereport%20it%3C%2Fa%3E%20to%20us%20and%20we%20will%20investigate.%3C%2Fp%3E'),
+   };
+
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-28634935-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-28634935-1');
+</script>
+
+
+
+<script>
+    var pageGuid = null;
+    function getPageGuid() {
+        if (pageGuid !== null) {
+            return pageGuid;
+        }
+        else {
+            pageGuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+            return pageGuid;
+        }
+
+    }
+</script>
+
+
+
+<style>
+    .outer-wrap {
+        width: 100%;
+        position: relative;
+    }
+
+    map, div.map-overlay {
+        /* This stretches the these elements to the edges of
+    the closest element upwards in the DOM with a relative
+    positioning (in this case it's the .outer-wrap) */
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    #map {
+        /* needs to be lower than the overlay */
+        z-index: 1;
+        margin-top: -2rem;
+        border: 0px;
+        border-radius: 0.625rem;
+    }
+
+    div.map-overlay {
+        z-index: 2; /* Needs to be higher than the map */
+    }
+</style>
+
+<div class="outer-wrap pb-3">
+        <div id="map" style="height: 1050px;"></div>
+    <div class="map-overlay">
+        <div class="container" style="padding-top: 6rem;">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="/?partial=True" class="btn btn-primary">Search again</a>
+                </div>
+                <div class="col-md-7 offset-md-2 col-sm-12 offset-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 style="font-size: 1.5rem;" class="title-font" id="detail-title"><strong>Robert Charles A'Bear </strong> <br><strong>065196F</strong></h1>
+                            <hr>
+                                <div class="media mt-4">
+                                        <div class="text-center">
+                                            <i class="far fa-building fa-2x mr-3 text-secondary-light" aria-hidden="true" style="width:50px;"></i>
+                                        </div>
+                                    <div class="media-body" aria-label="Company">
+                                            <label class="d-block font-weight-bold mb-0">Company</label>
+                                                <span class="d-block">A’Bear and Ball Architects LLP</span>
+
+                                    </div>
+                                </div>
+
+                                <div class="media mt-2">
+                                        <div class="text-center">
+                                            <i class="fa fa-map-marker-alt fa-2x mr-3 text-secondary-light" aria-hidden="true" style="width:50px;"></i>
+                                        </div>
+                                    <div class="media-body" aria-label="Address">
+                                            <label class="d-block font-weight-bold mb-0">Address</label>
+                                                <span class="d-block">Unit 4 Michaels Court<br> New House Farm<br> Hanney Road<br> Southmoor<br> Southmoor<br> OX13 5HR<br>United Kingdom</span>
+
+                                    </div>
+                                </div>
+
+                        <div class="media mt-2">
+                                <div class="text-center">
+                                    <i class="fa fa-phone fa-2x mr-3 text-secondary-light" aria-hidden="true" style="width:50px;"></i>
+                                </div>
+                            <div class="media-body" aria-label="Telephone">
+                                    <label class="d-block font-weight-bold mb-0">Telephone</label>
+                                        <span class="d-block">01865 699990</span>
+
+                            </div>
+                        </div>
+
+                        <div class="media mt-2">
+                                <div class="text-center">
+                                    <i class="fa fa-globe fa-2x mr-3 text-secondary-light" aria-hidden="true" style="width:50px;"></i>
+                                </div>
+                            <div class="media-body" aria-label="Website">
+                                    <label class="d-block font-weight-bold mb-0">Website</label>
+                                    <a class="d-block" href="https://www.abear-ball.co.uk">www.abear-ball.co.uk</a>
+
+                            </div>
+                        </div>
+
+                        <div class="media mt-2">
+                                <div class="text-center">
+                                    <i class="fa fa-envelope fa-2x mr-3 text-secondary-light" aria-hidden="true" style="width:50px;"></i>
+                                </div>
+                            <div class="media-body" aria-label="Email">
+                                    <label class="d-block font-weight-bold mb-0">Email</label>
+                                    <a class="d-block" href="mailto:rob@abear-ball.co.uk">rob@abear-ball.co.uk</a>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+                                    <div class="media mt-2">
+
+                                        <div class="media-body" aria-label="">
+                                            <label class="d-block font-weight-bold mb-0"></label>
+                                                <span class="d-block"></span>
+                                        </div>
+                                    </div>
+
+                            <hr>
+
+                            <div id="RegistrantDetailsInfoText" href="" class="text-center d-block"></div>
+                            <script>
+                                document.getElementById("RegistrantDetailsInfoText").innerHTML = LayoutVariables.RegistrantDetailsInfoText;
+                            </script>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="line1MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line1MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line1MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="line2MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line2MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line2MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="line3MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line3MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line3MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="line4MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line4MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line4MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="line5MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line5MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line5MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="line6MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line6MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line6MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade" id="line7MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line7MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line7MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="line8MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line8MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line8MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="line9MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line9MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line9MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="line10MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line10MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line10MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="line11MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line11MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line11MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="line12MoreInformation" tabindex="-1" role="dialog" aria-labelledby="line12MoreInformationTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="line12MoreInformationTitle">Robert Charles A'Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center text-white">
+                        <p class="copyright font-alt">©2020 Architects Registration Board. All Rights Reserved.</p>
+                        <a href="https://cms.architects-register.org.uk/terms-and-conditions" target="top">Terms and Conditions</a> |
+                        <a href="http://www.arb.org.uk/data-protection-policy/" target="top">Data Protection</a> |
+                        <a href="http://www.arb.org.uk/privacy-policy/" target="top">Privacy Policy</a> |
+                        <a href="http://www.arb.org.uk/accessibility/" target="top">Accessibility Statement</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </main>
+
+
+    <!--
+    JavaScripts
+    =============================================
+    -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cms.architects-register.org.uk/scripts/js/bootstrap.js"></script>
+    <script src="https://cms.architects-register.org.uk/scripts/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+
+        const $dropdown = $(".dropdown");
+        const $dropdownToggle = $(".dropdown-toggle");
+        const $dropdownMenu = $(".dropdown-menu");
+        const showClass = "show";
+
+        $(window).on("load resize", function () {
+            if (this.matchMedia("(min-width: 768px)").matches) {
+                $dropdown.hover(
+                    function () {
+                        const $this = $(this);
+                        $this.addClass(showClass);
+                        $this.find($dropdownToggle).attr("aria-expanded", "true");
+                        $this.find($dropdownMenu).addClass(showClass);
+                    },
+                    function () {
+                        const $this = $(this);
+                        $this.removeClass(showClass);
+                        $this.find($dropdownToggle).attr("aria-expanded", "false");
+                        $this.find($dropdownMenu).removeClass(showClass);
+                    }
+                );
+            } else {
+                $dropdown.off("mouseenter mouseleave");
+            }
+        });
+
+        $(window).on("load", function () {
+            setTimeout(function () { $('[data-toggle="tooltip"]').tooltip({ container: 'body' }); }, 2000);
+
+        });
+
+        var originalSize = 0;
+
+        $(document).ready(function () {
+            var fontSize = $('.main').css('font-size');
+            if (originalSize == 0) {
+                originalSize = parseInt(fontSize);
+            }
+
+            var fontSize = localStorage.getItem('fontSize');
+            if (fontSize != undefined && fontSize !== null) {
+                $('.main').css('font-size', fontSize + 'px');
+            }
+        });
+
+        $('#_resetFont').on('click', function () {
+            if (originalSize !== 0) {
+                $('.main').css('font-size', originalSize + 'px');
+                localStorage.setItem('fontSize', originalSize);
+            }
+        });
+
+
+        $('#_biggify').on('click', function () {
+
+            var fontSize = $('.main').css('font-size');
+
+            var newFontSize = parseInt(fontSize) + 1;
+            if (newFontSize < 30) {
+                $('.main').css('font-size', newFontSize + 'px');
+                localStorage.setItem('fontSize', newFontSize);
+            }
+        })
+
+        $('#_smallify').on('click', function () {
+            var fontSize = $('.main').css('font-size');
+
+            var newFontSize = parseInt(fontSize) - 1;
+            if (newFontSize > 6) {
+                $('.main').css('font-size', newFontSize + 'px')
+                localStorage.setItem('fontSize', newFontSize);
+            }
+        });
+
+
+    </script>
+
+
+
+
+
+        <script src="/js/MarkerClustering.js"></script>
+        <script src="/js/MapOptions-ARB.js"></script>
+        <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCN0sO-tkFLjMxlFhJr_sjMxA9llkahDX8&amp;callback=initMap"></script>
+        <script>
+
+            function initMap() {
+
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 11,
+                    center: { lat: 51.683525 , lng:  -1.224906 },
+                    mapTypeControl: mapOptions.MapTypeControl,
+                    streetViewControl: mapOptions.StreetViewControl,
+                    zoomControl: false,
+                    scaleControl: false,
+                    rotateControl: mapOptions.rotateControl,
+                    fullscreenControl: mapOptions.fullscreenControl,
+                    styles: mapOptions.Styles
+                });
+
+                var image = '/img/GoogleMaps/ARB/Maps_icon.png';
+
+
+                    marker = new google.maps.Marker({
+                                    map: map,
+                                    draggable: true,
+                                    animation: google.maps.Animation.DROP,
+                                    position: { lat:  51.683525 , lng:  -1.424906},
+                                    icon: image
+                                    });
+
+                    marker.addListener('click', toggleBounce);
+                    map.addListener('idle', () => {
+                                    document.getElementsByTagName('iframe')[0].title = "Google Maps";
+                                    })
+                                }
+
+
+
+            function toggleBounce() {
+                if (marker.getAnimation() !== null) {
+                    marker.setAnimation(null);
+                } else {
+                    marker.setAnimation(google.maps.Animation.BOUNCE);
+                }
+            }
+
+        </script>
+
+
+
+</body></html>
