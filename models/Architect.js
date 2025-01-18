@@ -1,5 +1,5 @@
-mongoose = require("mongoose")
-const { schema } = mongoose'
+mongoose = require("mongoose");
+const { schema } = 'mongoose';
 
 const ArchitectSchema = new Schema(
 {
