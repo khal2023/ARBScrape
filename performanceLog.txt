@@ -1,0 +1,3 @@
+version 1.0
+First trial, architects searched one by one
+Time to complete(mins): 99.80

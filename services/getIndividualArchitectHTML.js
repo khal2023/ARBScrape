@@ -1,4 +1,5 @@
 const axios = require('axios');
+const fs = require('fs')
 
 const config = (architectURL) => ({
   method: 'get',
@@ -10,10 +11,12 @@ const config = (architectURL) => ({
 const getIndividualArchitectHTML = async (architectURL) => {
     try {
         const response = await axios.request(config(architectURL))
-        return (JSON.stringify(response.data))
+        return (response.data)
     } catch (error) {
         console.error
     }
 }
+
+getIndividualArchitectHTML("/Architect/097834E?filterId=Architect")
 
 module.exports = getIndividualArchitectHTML;

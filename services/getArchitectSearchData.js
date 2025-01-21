@@ -163,7 +163,7 @@ const getArchitectSearchDataByPage = async (searchTerm, pageNumber) => {
 			});
 
 		const response = await axios.request(config(searchTerm, pageNumber))
-		return (JSON.stringify(response.data))
+		return (response.data)
 	} catch (error) {
 		console.error(error)
 	}
